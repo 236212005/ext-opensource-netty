@@ -52,7 +52,7 @@ public class MqttServerApplication implements CommandLineRunner, SocketApplicati
 		
 		
 		initCustom(mqttServer);
-		mqttServer.bind(17400);
+		mqttServer.bind(1883);
 		///mqttServer.requireSync();
 		///mqttServer.testInternalMessage();
 		
